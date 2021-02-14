@@ -3,8 +3,8 @@ import java.time.Month;
 
 public class Main {
     public static void main(String[] args) {
-        MyDate myDate1 = new MyDate(new MyDate.Month(5),17,new MyDate.DayOfWeek(4));
-        MyDate myDate2 = new MyDate(new MyDate.Month(5),17);
+        MyDate myDate1 = new MyDate(new MyDate.Month(5), 17, new MyDate.DayOfWeek(4));
+        MyDate myDate2 = new MyDate(new MyDate.Month(5), 17);
         System.out.println(myDate1);
         System.out.println(myDate2);
 
